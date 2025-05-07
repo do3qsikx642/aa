@@ -1,0 +1,76 @@
+[
+  {
+    "name": "create-network-policy",
+    "llmConfig": {
+      "id": "shim_disabled-gemini-gemini-2.5-flash-preview-04-17",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash-preview-04-17",
+      "enableToolUseShim": false,
+      "quiet": true
+    },
+    "result": "success",
+    "error": ""
+  },
+  {
+    "name": "create-network-policy",
+    "llmConfig": {
+      "id": "shim_disabled-gemini-gemini-2.5-pro-preview-03-25",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "enableToolUseShim": false,
+      "quiet": true
+    },
+    "result": "success",
+    "error": ""
+  },
+  {
+    "name": "create-network-policy",
+    "llmConfig": {
+      "id": "shim_enabled-gemini-gemma-3-27b-it",
+      "provider": "gemini",
+      "model": "gemma-3-27b-it",
+      "enableToolUseShim": true,
+      "quiet": true
+    },
+    "result": "",
+    "error": "running command /Users/sunilarora/work/kubectl-ai/k8s-bench/tasks/create-network-policy/verify.sh: exit status 1"
+  },
+  {
+    "name": "create-pod",
+    "llmConfig": {
+      "id": "shim_disabled-gemini-gemini-2.5-flash-preview-04-17",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash-preview-04-17",
+      "enableToolUseShim": false,
+      "quiet": true
+    },
+    "result": "success",
+    "error": ""
+  },
+  {
+    "name": "create-pod",
+    "llmConfig": {
+      "id": "shim_disabled-gemini-gemini-2.5-pro-preview-03-25",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "enableToolUseShim": false,
+      "quiet": true
+    },
+    "result": "success",
+    "error": ""
+  },
+  {
+    "name": "create-pod",
+    "llmConfig": {
+      "id": "shim_enabled-gemini-gemma-3-27b-it",
+      "provider": "gemini",
+      "model": "gemma-3-27b-it",
+      "enableToolUseShim": true,
+      "quiet": true
+    },
+    "result": "success",
+    "error": ""
+  },
+  {
+    "name": "create-pod-mount-configmaps",
+    "llmCo
